@@ -15,8 +15,8 @@ public class ArrayList_Q5 {
         list.add("Postman");
         list.add("Rest Assured");
 
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+        for (String languagename : list){
+            System.out.println(languagename);
         }
     }
 }
